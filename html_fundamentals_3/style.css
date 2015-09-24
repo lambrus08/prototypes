@@ -1,0 +1,33 @@
+p {
+    line-height: 150%;
+}
+
+
+#para1 {
+    font-size: 12px;
+}
+
+#skills {
+    font-style: italic;
+}
+
+#xph {
+    border: 10px solid red;
+    border-bottom: none
+}
+
+
+#xpp {
+    background-color: #068065;
+    border: 10px dotted black;
+    border-top: none;
+    color: salmon;
+
+}
+
+#am {
+    color: dodgerblue;
+}
+h1, h2 {
+    font-family: Montserrat;
+}
