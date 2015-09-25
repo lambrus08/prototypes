@@ -1,0 +1,41 @@
+h1 h2 p ul{
+    text-align: center;
+}
+p {
+    font-size: 12px
+}
+
+h2 {
+    color: dodgerblue;
+}
+
+img {
+    height: 300px;
+    float: left;
+
+}
+#xp {
+    font-family: 'Montserrat'
+}
+#experience-list {
+    background-color: skyblue;
+    list-style-type:none
+}
+
+#skills {
+    font-family: 'Montserrat'
+}
+.inner {
+    color: blue;
+}
+
+.nav {
+
+    list-style-type: none
+}
+
+.nav li {
+    display: inline;
+    padding: 80px;
+    font-size: 20px;
+}
