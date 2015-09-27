@@ -1,0 +1,29 @@
+#title {
+    border: solid 1px black;
+    height: 15vh;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+#left_nav {
+    width: 15vw;
+    background-color: yellow;
+    float: left;
+    border: solid 1px black;
+    height: 85vh;
+    text-align: center;
+    padding: 5px;
+
+}
+
+#main_content {
+    background-color: aquamarine;
+    float: left;
+    border: solid black 1px;
+    width: 81vw;
+    height: 85vh;
+    text-align: center;
+    padding: 10px;
+
+}

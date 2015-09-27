@@ -1,0 +1,32 @@
+#header {
+    text-align: center;
+    height: 15vh;
+    background-color: yellow;
+    border: solid black 1px;
+}
+
+#header li {
+    list-style-type: none;
+    display: inline-block;
+    width: 200px;
+
+}
+
+#main_content {
+    height: 70vh;
+
+}
+
+#footer li {
+    list-style-type: none;
+}
+
+#footer {
+    height: 15vh;
+    background-color: yellow ;
+    border: solid black 1px;
+}
+body {
+    border: solid black 1px;
+}
+

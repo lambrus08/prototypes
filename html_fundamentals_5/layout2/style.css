@@ -1,0 +1,17 @@
+#header li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#header {
+    height: 15vh;
+    background-color: yellow;
+    border: solid black 1px;
+}
+#main_content {
+    height: auto;
+}
+
+body {
+    border: solid black 1px;
+}
