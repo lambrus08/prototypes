@@ -1,0 +1,71 @@
+<html>
+<head>
+    <style>
+     #last { box-shadow:inset 0 0 10px #000;
+
+    }
+        #first {
+            background-color: pink;
+            font-family: cursive;
+            border: blue solid 1px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div>
+        <form action="http://learningfuze.com/echo.php" method="get">
+            First Name<br>
+            <input id="first" type="text" name="fistname" placeholder="name">
+            <br>
+            Last Name<br>
+            <input id="last" type="text" name="lastname" placeholder="last">
+            <br>
+            <input type="submit">
+            <br>
+            <textarea rows="4" cols="50" name="comment">Comments</textarea>
+        </form>
+        <form action= "http://learningfuze.com/echo.php" method="get">
+            <input type="radio" name="food" value="Pizza">Pizza<br>
+
+            <input type="radio" name="food" value="Pasta" checked>Pasta<br>
+
+            <input type="radio" name="food" value="Wings">Wings<br>
+            <input type="submit">
+        </form>
+</div>
+<div>
+            <form action= "http://learningfuze.com/echo.php" method="get">
+                <input type="checkbox" name="games1" value="CoD">CoD
+                <br>
+                <input type="checkbox" name="games2" value="Supermario">Super Mario
+                <br>
+                <input type="checkbox" name="games3" value="tetris">Tetris
+                <br>
+                <input type="checkbox" name="games4" value="nba2k" disabled checked>NBA2K
+                <br>
+                <input type="submit">
+            </form>
+</div>
+<div>
+            <form action= "http://learningfuze.com/echo.php" method="get">
+                <select name="Movies" multiple>
+                    <option value="Scarface">Scarface</option>
+                    <option value="Maritian">Martian</option>
+                    <option value="Jurassic Park">Jurassic Park</option>
+                    <option value="Pixels">Pixels</option>
+                </select>
+                <br><br>
+                <input type="submit">
+
+            </form>
+
+
+
+
+
+
+
+</body>
+</html>
