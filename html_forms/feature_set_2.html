@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMS</title>
+    <style>
+        #container {
+            background-color: red;
+            width: 70vw;
+            margin: auto;
+        }
+
+        .top {
+            width: 100%;
+            height: 40vh;
+            color: white;
+            font-size: 14px;
+
+        }
+
+        .top h1 {
+            padding-top: 40px;
+            text-align: center;
+            font-size: 28px;
+
+        }
+
+        p {
+
+            display: inline-block;
+            padding: 0 65px 0 65px;;;
+
+        }
+
+        .list {
+            margin: 35px 50px 0 45px;
+
+        }
+
+        .bottom {
+            width: 100%;
+            height: 60vh;
+
+            font-size: 14px;
+
+
+        }
+
+        .form1 {
+            display: block;
+            width: 48%;
+            height: 60vh;
+            float: left;
+
+
+        }
+
+        .form2 {
+            display: inline;
+            width: 48%;
+            height: 60vh;
+            float: left;
+
+
+        }
+
+        .bottom h1 {
+            display: inline;
+            padding-left: 60px;
+            font-size: 28px;
+            color: white;
+
+        }
+
+        input {
+            width: 310px;
+            height:8vh;
+            font-size: 14px;
+            padding-left: 8px;
+            box-shadow: black 0 2px;
+
+        }
+        .forma {
+            padding: 30px 0 0 100px;
+            margin-left: 20px;
+
+        }
+        .formb {
+            padding: 62px 0 0 10px;
+            margin-left: 20px;
+
+        }
+        #ssn {
+            width: 150px;
+            font-size: 14px;
+        }
+       #next {
+            width: 150px;
+            margin-left: 160px;
+            background-color: maroon;
+            font-size: 22px;
+            color: white;
+           text-align: center;
+
+
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <section class="top">
+        <h1>Instructions for Application - Academic Year 2014</h1>
+        <ol class="list">
+            <li>The deadline for 2014-2015 scholarship application: March 30,2014. Applications received after March
+                30 will be considered on a funds available basis
+            </li>
+            <li>Only completed applications will be considered. Do Not Leave Items Blank.</li>
+            <li>Attach a current copy of your high school and/or college transcripts.</li>
+            <li>Two signed letters of recommnedation (from non-relatives) must be attached to this application</li>
+        </ol>
+        <p>Consideration for any scholarship award is based on a point system including GPA, participation in
+            extra-curricular activites, school organization and community service. This will be a four semester
+            scholarship, and you must maintain criteria set in the guidelines.</p>
+
+    </section>
+    <section class="bottom">
+
+
+        <div class="form1">
+            <h1>Applicant Data</h1>
+
+            <form class="forma" action= "http://learningfuze.com/echo.php" method="get">
+                <br>
+                <input type="text" name="name" placeholder="Last Name, First Name, MI">
+                <br>
+                <br>
+                <input type="text" name="regiion" placeholder="City, State, Zip, County">
+                <br>
+                <br>
+                <input type="text" name="university" placeholder="Intended major at University">
+                <br>
+
+
+            </form>
+
+        </div>
+        <div class="form2">
+            <form class="formb" action= "http://learningfuze.com/echo.php" method="get">
+                <br>
+                <input id="ssn" type="text" name="Social Security " placeholder="Social Security #">
+                <br>
+                <br>
+                <input type="text" name="Permanent Home Phone" placeholder="Permanent Home Phone">
+                <br>
+                <br>
+                <input type="text" name="At which location will you be attending"
+                       placeholder="At which location will you be attending?"><br>
+                <br>
+                <input id="next" type="text" name="next" placeholder="Next">
+                <br>
+            </form>
+        </div>
+
+    </section>
+
+</div>
+
+
+</body>
+</html>
