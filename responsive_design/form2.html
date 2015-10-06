@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive-form2</title>
+
+    <style>
+
+        body {
+            background-color: maroon;
+            width: 95vw;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            border: 1px blue solid;
+            margin-right: 3vw;
+            margin-left: 3vw;
+        }
+
+        section {
+            width: 100%;
+            position: relative;
+        }
+
+        p {
+            margin-left: 2vh;
+            margin-top: 5vh;
+        }
+
+        h1 {
+
+            text-align: center;
+            padding-top: 5vh;
+        }
+        .list {
+
+            padding-top: 5vh;
+        }
+        li {
+            padding-top: 3vh;
+        }
+
+
+
+        form input {
+            width: 100%;
+            padding: 60px 30px 60px 30px;
+            margin: 25px 60px;
+
+        }
+
+        @media only screen and (min-width: 376px) {
+
+
+
+
+    </style>
+</head>
+<body>
+    <section class="top">
+        <h1>Instructions for Application - Academic Year 2014</h1>
+        <ol class="list">
+            <li>The deadline for 2014-2015 scholarship application: March 30,2014. Applications received after March
+                30 will be considered on a funds available basis
+            </li>
+            <li>Only completed applications will be considered. Do Not Leave Items Blank.</li>
+            <li>Attach a current copy of your high school and/or college transcripts.</li>
+            <li>Two signed letters of recommnedation (from non-relatives) must be attached to this application</li>
+        </ol>
+        <p>Consideration for any scholarship award is based on a point system including GPA, participation in
+            extra-curricular activites, school organization and community service. This will be a four semester
+            scholarship, and you must maintain criteria set in the guidelines.</p>
+
+    </section>
+    <section class="bottom">
+
+        <h1>Applicant Data</h1>
+
+    <form action="http://learningfuze.com/echo.php" method="get">
+        <div class="col1">
+            <input type="text" name="name" placeholder="Last Name, First Name, MI">
+        </div>
+        <div class="col2">
+            <input type="text" name="regiion" placeholder="City, State, Zip, County">
+        </div>
+        <div class="col3">
+            <input type="text" name="university" placeholder="Intended major at University">
+        </div>
+        <div class="col4">
+            <input id="ssn" type="text" name="Social Security " placeholder="Social Security #">
+        </div>
+        <div class="col5">
+            <input type="text" name="Permanent Home Phone" placeholder="Permanent Home Phone">
+        </div>
+        <div class="col6">
+            <input type="text" name="At which location will you be attending"
+                   placeholder="At which location will you be attending?">
+        </div>
+
+        <div class="col7">
+            <input id="next" type="text" name="next" placeholder="Next">
+        </div>
+    </form>
+    </section>
+</body>
+</html>
