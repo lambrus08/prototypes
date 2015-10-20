@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js_ref_data_types</title>
+    <script>
+
+        // FS 1.1
+
+        var studs = ["Waldo", "Faldo", "Geraldo", "Alfonso", "Luis"];
+        console.log(studs[2]);
+        console.log(studs);
+        console.log(studs.length);
+        studs.push("Alex", "Sebastian");
+        console.log(studs.length);
+        console.log(studs);
+
+        // FS 2.0
+
+        var student = {};
+        student.firstName = "Aldo";
+        student.lastName = "Lambruschini";
+        student.age = 33;
+        student.school = "LFU";
+        student.questionList = [];
+        student.hasQuestion = false;
+
+        // FS 2.1
+
+        student.greeting = function() {
+            return "Hello, my name is " + this.firstName;
+
+        };
+
+        student.aboutMe = function() {
+            return "My full name is " + this.firstName + " " + this.lastName + ", I am " + this.age + " years old and I am a student at " + this.school;
+        };
+
+        student.askQuestion = function(question) {
+            this.questionList.push(question);
+            this.hasQuestion = true;
+            return "A question has been added to your list";
+        };
+
+        student.answerQuestion = function(){
+            if(this.hasQuestion) {
+                this.hasQuestion = false;
+                return this.questionList[this.questionList.length - 1];
+            }
+            else {
+                return "You have no pending questions"
+            }
+        };
+
+        // FS 2.2
+
+        console.log(student.greeting());
+        console.log(student.aboutMe());
+        console.log(student.answerQuestion());
+        console.log(student.askQuestion());
+        console.log(student.askQuestion());
+        console.log(student.askQuestion());
+        console.log(student.answerQuestion());
+
+        // Quick console.log
+
+        console.log("Here is my student object " + student);
+        console.log("Here is my student object", student);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
